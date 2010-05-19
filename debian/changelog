@@ -1,4 +1,4 @@
-vbrfix (0.24-6) UNRELEASED; urgency=low
+vbrfix (0.24-6) unstable; urgency=low
 
   * Transition to source format "3.0 (quilt)"
   * Add descriptions to the patches being applied
