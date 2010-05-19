@@ -5,6 +5,8 @@ Maintainer: Rogério Brito <rbrito@ime.usp.br>
 Build-Depends: debhelper (>= 7.0.50~), autotools-dev
 Standards-Version: 3.8.4
 DM-Upload-Allowed: yes
+VCS-Browser: http://git.debian.org/?p=users/rbrito-guest/vbrfix.git
+VCS-Git: git://git.debian.org/users/rbrito-guest/vbrfix.git
 
 Package: vbrfix
 Architecture: any
