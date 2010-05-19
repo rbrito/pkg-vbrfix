@@ -1,10 +1,6 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-#export DH_VERBOSE=1
-
-include /usr/share/quilt/quilt.make
-
 # These are used for cross-compiling and for saving the configure script
 # from having to guess our platform (since we know it already)
 DEB_HOST_GNU_TYPE   ?= $(shell dpkg-architecture -qDEB_HOST_GNU_TYPE)
@@ -34,7 +30,7 @@ endif
 ##################################################################
 configure: configure-stamp
 
-configure-stamp: $(QUILT_STAMPFN)
+configure-stamp:
 	dh_testdir
 
 ifneq "$(wildcard /usr/share/misc/config.sub)" ""
@@ -59,7 +55,7 @@ build-stamp: configure-stamp
 
 	touch $@
 
-clean: unpatch
+clean:
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp
