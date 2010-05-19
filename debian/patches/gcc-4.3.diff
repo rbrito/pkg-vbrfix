@@ -1,5 +1,4 @@
-Fix inclusion of header files to avoid compilation problems
-with recent versions of gcc.
+Description: Include header files to avoid problems with newer versions of gcc
 --- a/vbrfixc/vbrfix.cpp
 +++ b/vbrfixc/vbrfix.cpp
 @@ -16,6 +16,7 @@

@@ -1,4 +1,5 @@
-Fix some tipos in the output of the program.
+Description: Fix some tipos in the output of the program.
+Author: Rogério Theodoro de Brito <rbrito@ime.usp.br>
 --- a/vbrfixc/main.cpp
 +++ b/vbrfixc/main.cpp
 @@ -44,7 +44,7 @@

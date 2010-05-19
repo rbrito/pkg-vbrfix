@@ -1,4 +1,5 @@
-Return error conditions including in the case of not changing a file.
+Description: Return error conditions including in the case of not changing a file.
+Author: Rogério Theodoro de Brito <rbrito@ime.usp.br>
 --- a/vbrfixc/vbrfix.cpp
 +++ b/vbrfixc/vbrfix.cpp
 @@ -73,6 +73,9 @@
