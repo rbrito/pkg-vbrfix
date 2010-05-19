@@ -1,3 +1,14 @@
+vbrfix (0.24-6) UNRELEASED; urgency=low
+
+  * Transition to source format "3.0 (quilt)"
+  * Add descriptions to the patches being applied
+  * Update the copyright years
+  * Transition to dh(7)-based rules file
+  * Update standards-version to 3.8.4
+  * Add references to the new git repository
+
+ -- Rogério Brito <rbrito@ime.usp.br>  Wed, 19 May 2010 10:15:13 -0300
+
 vbrfix (0.24-5) unstable; urgency=low
 
   * debian/rules:
