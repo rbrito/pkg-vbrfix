@@ -1,3 +1,10 @@
+vbrfix (0.24-7) unstable; urgency=low
+
+  * Improve the manpage slightly
+  * Fix FTBFS, updating config.{sub,guess}. Closes: #582435
+
+ -- Rogério Brito <rbrito@ime.usp.br>  Fri, 21 May 2010 01:09:32 -0300
+
 vbrfix (0.24-6) unstable; urgency=low
 
   * Transition to source format "3.0 (quilt)"
