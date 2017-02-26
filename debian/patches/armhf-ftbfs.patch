@@ -1,0 +1,16 @@
+Description: Fix FTBFS on armhf
+ *-*-linux-gnu does not match arm-unknown-linux-gnueabihf
+Author: Adrian Bunk <bunk@debian.org>
+Bug-Debian: https://bugs.debian.org/856199
+
+--- vbrfix-0.24+dfsg.orig/admin/acinclude.m4.in
++++ vbrfix-0.24+dfsg/admin/acinclude.m4.in
+@@ -2818,7 +2818,7 @@ AC_DEFUN(AC_CHECK_COMPILERS,
+   if test "$kde_use_warnings" = "yes"; then
+       if test "$GCC" = "yes"; then
+         case $host in
+-          *-*-linux-gnu)	
++          *-*-linux-gnu*)	
+             CFLAGS="-ansi -W -Wall -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings -D_XOPEN_SOURCE=500 -D_BSD_SOURCE $CFLAGS"
+             CXXFLAGS="-ansi -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -Wcast-align -Wconversion $CXXFLAGS"
+           ;;

@@ -1,3 +1,13 @@
+vbrfix (0.24+dfsg-1) unstable; urgency=medium
+
+  * QA upload.
+  * Set maintainer to Debian QA Group. (see #646384)
+  * Repackage the upstream tarball without the vbrfixc/vbrfixc binary.
+  * Fix FTBFS on armhf. (Closes: #856199)
+  * autoreconf for the FTBFS fix.
+
+ -- Adrian Bunk <bunk@debian.org>  Sun, 26 Feb 2017 13:07:11 +0200
+
 vbrfix (0.24-7) unstable; urgency=low
 
   * Improve the manpage slightly
