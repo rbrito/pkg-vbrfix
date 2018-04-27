@@ -6,8 +6,8 @@ Build-Depends:
  autotools-dev,
  debhelper (>= 10)
 Standards-Version: 3.8.4
-VCS-Browser: http://git.debian.org/?p=users/rbrito-guest/vbrfix.git
-VCS-Git: git://git.debian.org/users/rbrito-guest/vbrfix.git
+VCS-Browser: https://github.com/rbrito/pkg-vbrfix
+VCS-Git: https://github.com/rbrito/pkg-vbrfix
 
 Package: vbrfix
 Architecture: any
