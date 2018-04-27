@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 %:
-	dh --with autoreconf $@
+	dh $@
 
 override_dh_autoreconf:
 	cat admin/acinclude.m4.in > acinclude.m4
