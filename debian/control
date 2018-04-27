@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Build-Depends:
  autotools-dev,
- debhelper (>= 9.20160403~)
+ debhelper (>= 10)
 Standards-Version: 3.8.4
 VCS-Browser: http://git.debian.org/?p=users/rbrito-guest/vbrfix.git
 VCS-Git: git://git.debian.org/users/rbrito-guest/vbrfix.git
