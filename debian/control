@@ -2,14 +2,18 @@ Source: vbrfix
 Section: sound
 Priority: optional
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Build-Depends: debhelper (>= 9.20160403~), autotools-dev
+Build-Depends:
+ autotools-dev,
+ debhelper (>= 9.20160403~)
 Standards-Version: 3.8.4
 VCS-Browser: http://git.debian.org/?p=users/rbrito-guest/vbrfix.git
 VCS-Git: git://git.debian.org/users/rbrito-guest/vbrfix.git
 
 Package: vbrfix
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
 Description: corrects MP3 files that have incorrect VBR information
  In an average song there are points that require high quality and points
  that require low quality (i.e. silence).
